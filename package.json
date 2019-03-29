@@ -1,5 +1,5 @@
 {
-  "name": "jpeg_xmp_paser",
+  "name": "jpeg_xmp_parser",
   "version": "0.0.1",
   "description": "Extract xmp from jpeg.",
   "main": "index.js",
@@ -12,7 +12,6 @@
   "keywords": [
     "xmp"
   ],
-  "private": true,
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^6.0.2"

@@ -1,5 +1,5 @@
 const expect = require('chai').expect
-const JpegXmpParser = require('../src/jpeg_xmp_parser.js')
+const JpegXmpParser = require('../index.js')
 const path = require('path')
 const fs = require('fs')
 
