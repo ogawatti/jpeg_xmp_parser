@@ -1,0 +1,20 @@
+{
+  "name": "jpeg_xmp_paser",
+  "version": "0.0.1",
+  "description": "Extract xmp from jpeg.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "ogawatti",
+  "license": "MIT",
+  "repository": "https://github.com/ogawatti/jpeg_xmp_parser",
+  "keywords": [
+    "xmp"
+  ],
+  "private": true,
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2"
+  }
+}
