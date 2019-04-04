@@ -15,5 +15,8 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^6.0.2"
+  },
+  "dependencies": {
+    "xml2js": "^0.4.19"
   }
 }
