@@ -3,3 +3,5 @@ dist: trusty
 node_js:
   - 'stable'
   - 'lts/*'
+notifications:
+  email: false
