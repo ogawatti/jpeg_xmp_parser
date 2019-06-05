@@ -20,5 +20,8 @@ $ npm install ogawatti/jpeg_xmp_parser#master
 const JpegXmpParser = require('jpeg_xmp_parser')
 
 let string = JpegXmpParser.parse(filePath)
-JpegXmpParser.write(dstPath, string)
+let obj = JpegXmpParser.parseToObject(filePath)
+
+JpegXmpParser.write(srcPath, dstPath, string)
+JpegXmpParser.write(srcPath, dstPath, obj)
 ```
